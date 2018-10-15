@@ -296,3 +296,4 @@ public void addResourceHandlers(ResourceHandlerRegistry registry) {
 We could also override the Spring Security default settings. If we want to deactivate the "no cache control" policy for our API, we can change the ApiSecurityConfiguration class...
 
 https://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/cache-control.html
+https://www.keycdn.com/blog/http-cache-headers

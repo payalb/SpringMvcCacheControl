@@ -23,7 +23,7 @@ public class CacheDemoController {
 		 * create 'Cache-Control' headers with different directives. In above code we
 		 * are specifying that browser cache should expire after 10 secs.
 		 */
-		String headerValue = CacheControl.maxAge(10, TimeUnit.MINUTES).getHeaderValue();
+		String headerValue = CacheControl.maxAge(10, TimeUnit.MINUTES).cachePublic().getHeaderValue();
 		System.out.println("In controller");
 		response.addHeader("Cache-Control", headerValue);
 	/*	response.setHeader("Pragma", "no-cache");
